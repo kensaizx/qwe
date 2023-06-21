@@ -259,7 +259,8 @@
           
               new ItcAccordion('#accordion-1');
               new ItcAccordion('#accordion-2');
-    
+              
+
               
     
             </script>
@@ -268,7 +269,7 @@
       </div>
       <!-- popup -->
 <div class="headerInner">
-      <div class="logoTspk"><img src="Tspklogo.png" alt="tspk" /></div>
+      <div class="logoTspk" style = "margin-left: 83px;"><img src="Tspklogo.png" alt="tspk" /></div>
       <div class="headerMenu">
         <ul>
           <li><a href="">Главная</a></li>
@@ -336,8 +337,11 @@
         <p class="greetWords">Приветственное слово директора</p>
         <h1 class="titleClass">УВАЖАЕМЫЕ ПОСЕТИТЕЛИ</h1>
         <div class="greetBlocks">
-          <div class="leftGreetBlock">
-            <img src="director.png" alt="directorIMG" />
+          <div class="leftGreetBlock" id = "lgb">
+            <img src="director.png" alt="directorIMG" id = "lgbimg"/>
+          </div>
+          <div class="leftGreetBlockSM" id = "lgbSM">
+            <img src="directorSM.png" alt="directorIMG" id = "lgbimgSM"/>
           </div>
           <div class="rightGreetBlock">
             <p>
@@ -839,7 +843,7 @@
             </div>
           </div>
           <div class="rightBlockMap">
-            <div id="map" style="width: 780px; height: 340px"></div>
+            <div id="map" style="width: 100%; height: 100%"></div>
           </div>
         </div>
       </div>
@@ -868,18 +872,15 @@
 
                 <div class="contactWithUs">
                   <label for="text">Ваше имя <span style = "color: red;">*</span></label>
-                  <input style = "width: 300px; height: 40px;     border: none;
-                  border-radius: 3px;" type="text" class="nameInput" />
+                  <input type="text" class="nameInput" />
                 </div>
                 <div class="contactWithUs">
                   <label for="phone">Ваш номер <span style = "color: red;">*</span></label>
-                  <input style = "width: 300px; height: 40px;     border: none;
-                  border-radius: 3px;" type="phone" class="phoneInput" />
+                  <input type="phone" class="phoneInput" />
                 </div>
                 <div class="contactWithUs">
                   <label for="email">Ваш email <span style = "color: red;">*</span></label>
-                  <input style = "width: 300px; height: 40px;     border: none;
-                  border-radius: 3px;" type="email" class="emailInput" />
+                  <input type="email" class="emailInput" />
                   
 
                 </div>
@@ -918,5 +919,19 @@
         <span>ГАПОУ ТСПК | Дизайн, верстка, программирование | Шаров С.А. Ser53231987@yandex.ru | Тольятти, 2023 г.</span>
       </div>
     </footer>
+    <script>
+      var res = window.innerWidth;
+      var el = document.querySelector('.leftGreetBlock');
+      var el2 = document.querySelector('.leftGreetBlockSM');
+      console.log(res);
+      if (res <= 768){
+        el.classList.add('hidden');
+      }
+      else if (res > 768){
+        el.classList.remove('hidden');
+        el2.classList.add('hidden');
+        console.log(el2);
+      }
+    </script>
   </body>
 </html>
