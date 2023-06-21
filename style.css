@@ -1698,3 +1698,10 @@ table a{
   max-width: 340px;
   width: 93%;
 }
+
+@media screen and (max-width: 1440px)
+{
+  .rightBlock{
+    right: 0px;
+  }
+}
