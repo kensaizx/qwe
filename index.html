@@ -269,7 +269,7 @@
       </div>
       <!-- popup -->
 <div class="headerInner">
-      <div class="logoTspk" style = "margin-left: 83px;"><img src="Tspklogo.png" alt="tspk" /></div>
+      <div class="logoTspk" id = "headerImg"><img src="Tspklogo.png" alt="tspk" /></div>
       <div class="headerMenu">
         <ul>
           <li><a href="">Главная</a></li>
@@ -355,13 +355,7 @@
               нашего персонала. <br />
               Благодарим за внимание к сайту!
             </p>
-            <p
-              style="
-                color: #239221;
-                text-align: end;
-                font-size: 15px;
-                font-weight: 500;
-              "
+            <p id = "bottomGreet"
             >
               С уважением, Ланчиков Максим Николаевич, директор ГАПОУ ТСПК
             </p>
@@ -783,12 +777,7 @@
               >Найти нас можно по адресу:</span
             >
             <p
-              style="
-                color: #628298;
-                font-size: 25px;
-                line-height: 30px;
-                margin-bottom: 30px;
-              "
+              class = "h1AboutBlock"
             >
               Главный корпус:
             </p>
@@ -813,13 +802,7 @@
               </div>
             </div>
             <p
-              style="
-                color: #628298;
-                font-size: 25px;
-                line-height: 30px;
-                margin-bottom: 30px;
-              "
-            >
+             class = "h1AboutBlock">
               Второй корпус:
             </p>
             <div class="about1stLine">
@@ -924,10 +907,10 @@
       var el = document.querySelector('.leftGreetBlock');
       var el2 = document.querySelector('.leftGreetBlockSM');
       console.log(res);
-      if (res <= 768){
+      if (res <= 1024){
         el.classList.add('hidden');
       }
-      else if (res > 768){
+      else if (res > 1024){
         el.classList.remove('hidden');
         el2.classList.add('hidden');
         console.log(el2);

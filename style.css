@@ -327,6 +327,14 @@ header {
 .leftGreetBlock {
   max-width: 255px;
 }
+#bottomGreet{
+    color: #239221;
+    text-align: end;
+    font-size: 15px;
+    font-weight: 500;
+}
+               
+
 .rightGreetBlock {
   max-width: 925px;
   line-height: 19px;
@@ -587,6 +595,14 @@ header {
   max-width: 80%;
   margin: 0 auto;
   overflow: hidden;
+}
+.h1AboutBlock{
+  
+  color: #628298;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 30px;
+
 }
 
 .sliderContainer {
@@ -1251,7 +1267,9 @@ input {
   width: 250px;
   margin: 0 auto;
 }
-
+#headerImg{
+  margin-left: 83px;
+}
 
 
 
@@ -1878,6 +1896,22 @@ table a{
   .leftGreetBlock img{
     max-width: 880px;
   }
+  .leftGreetBlockSM img{
+    width: 205px;
+    padding-right: 50px;
+  }
+  .courcesBlock{
+    border-right: 0;
+  }
+  .offer__slider{
+    display: none;
+  }
+  
+  .rightGreetBlock p{
+    line-height: 15px;
+    font-size: 12px;
+  }
+  
   .logoTspk img{
     width: 90px;
     height: 80px;
@@ -1900,9 +1934,7 @@ table a{
   .mainContainer{
     max-width: 820px;
   }
-  .rightGreetBlock{
-    font-size: 12px;
-  }
+  
   .firstLine, .secondLine{
     flex-wrap: nowrap;
   }
@@ -1953,6 +1985,11 @@ table a{
   }
   .leftGreetBlock img{
     max-width: 830px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .greetBlocks{
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 830px){
@@ -2030,6 +2067,16 @@ table a{
   .secondSection{
     max-width: 605px;
   }
+  .leftGreetBlock img{
+    max-width: 880px;
+  }
+  .rightGreetBlock{
+    max-width: 405px;
+  }
+  .leftGreetBlockSM img{
+    width: 205px;
+    padding-right: 50px;
+  }
   .headerMenu ul {
     font-size: 11px;
   }
@@ -2039,8 +2086,15 @@ table a{
   .leftGreetBlock img{
     max-width: 689px;
   }
-  .leftGreetBlock{
+  .leftGreetBlockSM{
     max-width: 170px;
+  }
+  .leftGreetBlock{
+    max-width: 200px;
+  }
+  .leftGreetBlockSM img{
+    max-width: 175px;
+    margin-right: 20px;
   }
   .mainContainer{
     max-width: 605px;
@@ -2048,8 +2102,240 @@ table a{
   .titleClass{
     font-size: 27px;
   }
-  .rightGreetBlock{
+  .rightGreetBlock p, #bottomGreet{
     font-size: 10px;
     line-height: 12px;
+  }
+  .viewMoreBtn{
+    width: 150px;    
+    height: 40px;
+    font-size: 11px;
+  }
+  .greetBlocks{
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 732px){
+  .header_burger{
+    top: 66px;
+  }
+  .logoTspk img{
+    width: 70px;
+    height: 70px;
+  }
+  .header_menu ul{
+    font-size: 10px;
+  }
+  .headerContacts p{
+    font-size: 10px;
+  }
+  .greetBlocks{
+    margin-bottom: 50px;
+  }
+  .aboutText1stLine, .aboutText2ndLine{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 696px){
+  .wrapper.show, .menuPopup.menuPopup_active{
+    max-width: 600px;
+  }
+  .popupTitle{
+    font-size: 22px;
+  }
+  .headerContacts p{
+    font-size: 8px;
+  }
+  .headerContacts img{
+    max-width: 15px;
+  }
+}
+
+@media screen and (max-width: 676px ){
+  .headerContacts{
+    display: none;
+  }
+  .copyrightBlock{
+    font-size: 11px;
+  }
+  .spaceBlock{
+    height: 335px;
+  }
+}
+@media screen and (max-width: 630px){
+  .directionsBtn{
+    width: 190px;
+    height: 40px;
+    padding: 0 10px 0 40px;
+    font-size: 15px;
+  }
+  .buttonBlock{
+    justify-content: normal;
+  }
+  .leftSection{
+    max-width: 135px;
+  }
+  .secondSection{
+    max-width: 445px;
+  }
+  .investText{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 425px){
+  .firstLine, .secondLine{
+    flex-direction: column;
+  }
+  .CategoryBlock{
+    margin-bottom: 15px;
+  }
+  .headerMenu {
+    display: none;
+  }
+  #headerImg{
+    margin-left: 0;
+  }
+  #headerImg img{
+    width: 85px;
+  }
+  .firstLine, .secondLine{
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .secondSection{
+    max-width: 332px;
+  }
+  .secondSent, .thirdSent{
+    font-size: 17px;
+  }
+  
+  .fourthSent{
+    font-size: 30px;
+  }
+  .mainContainer{
+    max-width: 400px;
+  }
+  .titleClass{
+    font-size: 26px;
+  }
+  .leftGreetBlockSM img{
+    max-width: 150px;
+  }
+  .directionsBtn{
+    width: 160px;
+    padding: 0px 10px 0 20px;
+    font-size: 11px;
+  }
+  .investText{
+    font-size: 15px;
+  }
+  .rightGreetBlock p{
+    font-size: 8px;
+  }
+  .directionsSection{
+    justify-content: center;
+  }
+  .viewMoreBtn{
+    margin: 0 auto;
+  }
+  .mainContainer{
+    margin-bottom: 30px;
+  }
+  .aboutBlocks{
+    flex-direction: column;
+  }
+  .leftAboutBlock{
+    width: 400px;
+  }
+  .rightBlockMap{
+    height: 300px;
+  }
+  .h1AboutBlock{
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 18px;
+  }
+
+  .logoTspk img{
+    width: 85px;
+  }
+  .footerSections{
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightSection{
+    max-width: 255px;
+    margin-top: 15px;
+  }
+  .spaceBlock{
+    height: 125px;
+  }
+}
+@media screen and (max-width: 590px){
+  .headerMenu{
+    display: none;
+  }
+  .directionsSection{
+    justify-content: center;
+  }
+  #headerImg{
+    margin-left: 0;
+  }
+  .secondSection{
+    max-width: 400px;
+  }
+  .secondSent, .thirdSent{
+    font-size: 17px;
+  }
+  .firstLine, .secondLine{
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .CategoryBlock{
+    margin-bottom: 15px;
+  }
+  .viewMoreBtn{
+    margin: 0 auto;
+  }
+  .mainContainer{
+    margin-bottom: 30px;
+  }
+  .aboutBlocks{
+    flex-direction: column;
+  }
+  .mainContainer{
+    max-width: 410px;
+  }
+  .rightBlockMap{
+    height: 300px;
+  }
+  .footerSections{
+    flex-direction: column;
+    align-items: center;
+  }
+  .spaceBlock{
+    height: 145px;
+  }
+  .rightSection{
+    max-width: 255px;
+    margin-top: 15px;
+  }
+  .h1AboutBlock{
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 18px;
+  }
+  .logoTspk img{
+    width: 85px;
+  }
+  .leftAboutBlock{
+    width: 400px;
+  }
+  .copyrightBlock{
+    font-size: 10px;
   }
 }
