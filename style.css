@@ -1699,7 +1699,7 @@ table a{
   width: 93%;
 }
 
-@media screen and (max-width: 1440px)
+@media screen and (min-width: 1440px)
 {
   .rightBlock{
     right: 0px;
