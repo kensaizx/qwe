@@ -1988,6 +1988,12 @@ table a{
   footer{
     height: 560px;
   }
+  .committeeTextBlock{
+    flex-direction: column;
+  }
+  .committeeBlock{
+    height: 320px;
+  }
 }
 @media screen and (max-width: 939px){
   .spaceBlock{
