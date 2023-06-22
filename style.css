@@ -2406,3 +2406,12 @@ table a{
     left: 15px;
   }
 }
+@media screen and (max-width: 386px)
+{
+  .committeeBlock{
+    height: 355px;
+  }
+  .docsBlock .docsRightBlock{
+    flex-wrap: wrap;
+  }
+}
