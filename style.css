@@ -2209,6 +2209,15 @@ table a{
   .headerMenu {
     display: none;
   }
+  .headerPop{
+    padding-left: 0;
+  }
+  .popupTitle{
+    font-size: 16px;
+  }
+  .headerPopRight img{
+    display: none;
+  }
   #headerImg{
     margin-left: 0;
   }
