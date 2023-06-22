@@ -2330,6 +2330,7 @@ table a{
     height: 100%;
   }
   .tableBlockInfo{
+    display: block;
     max-width: 300px;
     margin-top: 12px;
     padding-left: 5px;
@@ -2338,6 +2339,7 @@ table a{
   }
   #tableInfoTitle{
     font-size: 12px;
+    font-weight: 500;
   }
   #tableInfoText{
     margin-left: 5px;
@@ -2537,6 +2539,9 @@ table a{
   #svedInfoTitle{
     font-size: 15px;
   }
+  .tableBlockInfo{
+    max-width: 200px;
+  }
 }
 @media screen and (max-width: 590px){
   .headerMenu{
@@ -2603,6 +2608,9 @@ table a{
   }
   .copyrightBlock{
     font-size: 10px;
+  }
+  .tableBlockInfo{
+    max-width: 200px;
   }
 }
 @media screen and (max-width: 410px){
