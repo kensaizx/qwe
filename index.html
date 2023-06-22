@@ -33,7 +33,6 @@
             <div class="headerPop">
               <div class="headerPopLeft">
                 <div class="regBtn"><span></span></div>
-                <!-- <button class = "close"><img src="popCloseIcon.png" alt=""></button> -->
                 <h1 class = "popupTitle">регистрация</h1>
               </div>
               <div class="headerPopRight">
@@ -151,20 +150,6 @@
                   <p><a href="docPage.html" target="_blank">Международное сотрудничество</a></p>
                 </div>
               </div>
-              <!-- 3 -->
-              <!-- <div class="accordion__item">
-                <div class="accordion__header">
-                  <div class="accordionFlex">
-                    <img src="popDocsIcon.png" alt="">
-                    <p style = "font-size: 17px; color: #626262; font-weight: 900; text-transform: uppercase;">ДОКУМЕНТЫ</p>
-                  </div>
-                </div>
-                <div class="accordion__body">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat dicta vel sapiente laudantium minima
-                  porro voluptatem nam, alias aliquam qui quasi eveniet odit fugiat eius aspernatur nesciunt veniam expedita!
-                </div>
-              </div> -->
-              <!-- 4 -->
               <div class="accordion__item">
                 <div class="accordion__header">
                   <div class="accordionFlex">
@@ -195,32 +180,27 @@
               $('.header_burger').on('click', function(e){
                 e.preventDefault();
                 $('.menuPopup').toggleClass('menuPopup_active');
-                // $('.header_burger').toggleClass('active');
                 $('.wrapper').toggleClass('show');
               });
               $('.popupBtn').on('click', function(){
                 $('.menuPopup').toggleClass('menuPopup_active');
                 $('.wrapper').toggleClass('show');
-                // $('.header_burger').toggleClass('active');
               });
               $('.signInLink').on('click', function(){
                 $('.wrapperSignIn').toggleClass('show');
                 $('.wrapper').removeClass('show');
                 $('.menuPopup').removeClass('menuPopup_active');
-                // $('.header_burger').toggleClass('active');
               });
               $('.signBtn').on('click', function(){
                 $('.wrapperSignIn').toggleClass('show');
                 $('.wrapperReg').removeClass('show');
                 $('.wrapper').toggleClass('show');
                 $('.menuPopup').toggleClass('menuPopup_active');
-                // $('.header_burger').toggleClass('active');
               });
               $('.regLink').on('click', function(){
                 $('.wrapper').removeClass('show');
                 $('.wrapperSignIn').removeClass('show');  
                 $('.menuPopup').removeClass('menuPopup_active');
-                // $('.header_burger').toggleClass('active');
                 $('.wrapperReg').toggleClass('show');
               });
               $('.regBtn').on('click', function(){
@@ -228,8 +208,6 @@
                 $('.menuPopup').toggleClass('menuPopup_active');
                 $('.wrapper').toggleClass('show');
                 $('.wrapperSignIn').removeClass('show');
-
-                // $('.header_burger').toggleClass('active');
               });
               class ItcAccordion {
                 constructor(target, config) {
@@ -276,7 +254,7 @@
           <li><a href="docPage.html">Документы</a></li>
           <li><a href="specialties.html">Абитуриенту</a></li>
           <li><a href="additional.html">Студентам</a></li>
-          <li><a href="">Родителям</a></li>
+          <!-- <li><a href="">Родителям</a></li> -->
         </ul>
       </div>
       <div class="headerContacts">
