@@ -1324,7 +1324,17 @@ display: none;
 .sideMenuContainer{
   font-size: 18px;
 }
-
+#committeeLeftSpan{
+  font-size: 20px; 
+  font-weight: 300; 
+  color: #fff; 
+  margin-right: 5px;
+}
+#committeeRightSpan{
+  font-size: 20px; 
+  font-weight: 500; 
+  color: #fff;
+}
  
 .svedBlock .sideMenuContainer { 
 border-right: 1px solid #628298; 
@@ -1758,7 +1768,7 @@ table a{
   .leftGreetBlock img{
     max-width: 1190px;
   }
-  .rigthBlock img{
+  .rightBlock img{
     width: 110%;
   }
 }
@@ -2292,11 +2302,13 @@ table a{
   }
   .firstLine, .secondLine{
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 15px;
   }
   .CategoryBlock{
     margin-bottom: 15px;
+    width: 150px;
   }
   .viewMoreBtn{
     margin: 0 auto;
