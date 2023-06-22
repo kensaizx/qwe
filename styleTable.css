@@ -20,6 +20,9 @@ body {
     .section-info-table{
         display: block;
     }
+    footer{
+        height: 630px;
+    }
 }
 
 .wrapper-block-info {
