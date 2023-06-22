@@ -11,10 +11,15 @@ body {
 }
 
 .section-info-table {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     padding: 0px 5px;
+}
+@media screen  and (max-width: 768px){
+    .section-info-table{
+        display: block;
+    }
 }
 
 .wrapper-block-info {
