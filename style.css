@@ -559,6 +559,7 @@ header {
 }
 .courcesBlock {
   display: flex;
+  flex-wrap: wrap;
   width: 500px;
   border-right: 1px solid #85adc8;
 }
@@ -1040,6 +1041,7 @@ input {
   display: flex;
   margin-bottom: 50px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .docsInfoBlock{
@@ -1052,6 +1054,12 @@ input {
 .docsBlock .docsLeftBlock, .docsBlock .docsRightBlock{
   display: flex;
     align-items: flex-start;
+}
+#docsRbSpan{
+  font-size: 20px; 
+  font-weight: 300; 
+  color: #565656; 
+  line-height: 24px;
 }
 .navCard{
   background-image: url("firstNavCard1.png");
@@ -2178,6 +2186,12 @@ table a{
   .spaceBlock{
     height: 335px;
   }
+  #committeeLeftSpan, #committeeRightSpan{
+    font-size: 15px;
+  }
+  #docsRbSpan{
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 630px){
   .directionsBtn{
@@ -2385,5 +2399,10 @@ table a{
   }
   .leftAboutBlock{
     width: 380px;
+  }
+}
+@media screen and (max-width: 425px){
+  .header_burger{
+    left: 15px;
   }
 }
