@@ -2383,4 +2383,7 @@ table a{
   .resourcesBlock{
     justify-content: center;
   }
+  .leftAboutBlock{
+    width: 380px;
+  }
 }
