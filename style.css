@@ -200,6 +200,9 @@ header {
   /* font-family: 'rubik', sans-serif; */
   color: #d3d3d3;
 }
+.numberContact, .emailContact{
+  align-items: center;
+}
 
 .imparedBlock {
   font-size: 20px;
@@ -322,6 +325,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .leftGreetBlock {
@@ -618,6 +622,10 @@ header {
 
 .resourcesBlock {
   display: flex;
+  justify-content: center;
+}
+.courcesBlock{
+  border-right: 0px;
 }
 
 .aboutText1stLine,
