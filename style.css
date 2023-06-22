@@ -1159,6 +1159,13 @@ input {
   height: 565px;
   justify-content: center;
 }
+.addImg1100, .addImg615, .addImg420, .addImg360{
+  display: none;
+}
+
+.additionalTextBlock{
+  display: none;
+}
 
 .additionalBtn{
   margin: 0 auto;
@@ -1804,6 +1811,15 @@ table a{
   .rightBlock img{
     width: 115%;
   }
+  #additTitle{
+    display: none;
+  }
+  .additionalImgBlock{
+    width: 92%;
+  }
+  .additionalBtn{
+    margin-left: 390px;
+  }
   .leftGreetBlock img{
     max-width: 1190px;
   }
@@ -1812,6 +1828,15 @@ table a{
 @media screen and (min-width:1200px) and (max-width: 1300px){
   .leftGreetBlock img{
     max-width: 1010px;
+  }
+  .addImg1400{
+    display: none;
+  }
+  #additTitle{
+    display: none;
+  }
+  .addImg1100{
+    display: block;
   }
   .secondSection{
     max-width: 1010px;
@@ -1855,6 +1880,10 @@ table a{
     width: 41%;
     top: -2px;
   }
+  .addImg1400{
+    display: none;
+  }
+  
   .rightBlock img{
     width: 555px;
   }
@@ -2021,6 +2050,76 @@ table a{
   .greetBlocks{
     margin-top: 30px;
   }
+  .progLeftBlock{
+    display: flex;
+    border-bottom: 1px solid #757575;
+    max-width: 830px;
+  }
+  .additionalTextBlock{
+    display: flex;
+    flex-direction: column;
+  }
+  .programName{
+    font-size: 12px;
+  }
+  .titleProgBlock{
+    margin-top: 15px;
+  }
+  .addImg1400{
+    display: none;
+  }
+  .programBlock{
+    flex-direction: column;
+  }
+  .progLeftBlock{
+    max-width: 775px;
+    border-right: 0;
+  }
+  .progFlex{
+    flex-wrap:wrap;
+  }
+  .progCard{
+    margin-bottom: 20px;
+  }
+  .programName p{
+    font-size: 12px;
+  }
+  .progLeftBlock{
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .titleProgBlock{
+    justify-content: center;
+  }
+  .additionalImgBlock{
+    display: none;
+  }
+  #additTitle{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .additP{
+    font-size: 20px;
+    margin-bottom: 35px;
+    height: 35px;
+    border-right: 1px solid #8c9abc;
+    border-left: 1px solid #8c9abc;
+    border-bottom: 1px solid #8c9abc;
+    padding-top: 10px;
+    text-align: center;
+    width: 350px;
+  }
+  .additPBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .additionalBtn{
+    margin-top: 35px;
+    
+  }
 }
 @media screen and (max-width: 830px){
   .imparedBlock{
@@ -2146,6 +2245,77 @@ table a{
   }
   .greetBlocks{
     margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px){
+  .progLeftBlock{
+    display: flex;
+    border-bottom: 1px solid #757575;
+  }
+  .additionalTextBlock{
+    display: flex;
+    flex-direction: column;
+  }
+  .programName{
+    font-size: 12px;
+  }
+  .titleProgBlock{
+    margin-top: 15px;
+  }
+  .addImg1400{
+    display: none;
+  }
+  .programBlock{
+    flex-direction: column;
+  }
+  .progLeftBlock{
+    max-width: 775px;
+    border-right: 0;
+  }
+  .progFlex{
+    flex-wrap:wrap;
+  }
+  .progCard{
+    margin-bottom: 20px;
+  }
+  .programName p{
+    font-size: 12px;
+  }
+  .progLeftBlock{
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .titleProgBlock{
+    justify-content: center;
+  }
+  .additionalImgBlock{
+    display: none;
+  }
+  #additTitle{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .additP{
+    font-size: 20px;
+    margin-bottom: 35px;
+    height: 35px;
+    border-right: 1px solid #8c9abc;
+    border-left: 1px solid #8c9abc;
+    border-bottom: 1px solid #8c9abc;
+    padding-top: 10px;
+    text-align: center;
+    width: 350px;
+  }
+  .additPBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .additionalBtn{
+    margin-top: 35px;
+    
   }
 }
 @media screen and (max-width: 732px){
@@ -2324,6 +2494,9 @@ table a{
   .courcesBlock{
     width: 350px;
   }
+  .progLeftBlock{
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 590px){
   .headerMenu{
@@ -2420,8 +2593,25 @@ table a{
   .committeeBlock{
     height: 355px;
   }
+  .titleResources{
+    font-size: 28px;
+  }
+  .leftAboutBlock{
+    width: 340px;
+  }
   .docsBlock .docsRightBlock{
     flex-wrap: wrap;
+  }
+  .secondSection{
+    max-width: 340px;
+  }
+  .mainContainer{
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 700px){
+  .progLeftBlock{
+    flex-direction: column;
   }
 }
 
