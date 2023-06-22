@@ -861,6 +861,7 @@ input {
   background-repeat: no-repeat;
   background-position: right;
   margin-bottom: 50px;
+  margin-right: 10px;
   max-width: 360px;
   height: 290px;
   width: 100%;
@@ -2011,6 +2012,11 @@ table a{
     max-width: 830px;
   }
 }
+@media screen and (max-width: 900px){
+  .imparedBlock{
+    display: none;
+  }
+}
 @media screen and (max-width: 1024px){
   .greetBlocks{
     margin-top: 30px;
@@ -2085,6 +2091,9 @@ table a{
   }
   .secondContacts{
     text-align: right;
+  }
+  .cardFlex{
+    justify-content: center;
   }
 }
 @media screen and (max-width: 792px){
@@ -2415,3 +2424,4 @@ table a{
     flex-wrap: wrap;
   }
 }
+
