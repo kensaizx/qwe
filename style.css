@@ -2255,7 +2255,7 @@ table a{
     font-size: 11px;
   }
   .investText{
-    font-size: 15px;
+    font-size: 12px;
   }
   .rightGreetBlock p{
     font-size: 8px;
@@ -2297,6 +2297,9 @@ table a{
   }
   .spaceBlock{
     height: 125px;
+  }
+  .courcesBlock{
+    width: 350px;
   }
 }
 @media screen and (max-width: 590px){
@@ -2366,8 +2369,18 @@ table a{
     font-size: 10px;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 410px){
   .titleClass{
     font-size: 22px;
+  }
+  .courcesBlock{
+    flex-direction: column;
+    align-items: center;
+  }
+  .courceBlock{
+    margin-bottom: 10px;
+  }
+  .resourcesBlock{
+    justify-content: center;
   }
 }
